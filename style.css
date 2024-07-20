@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: #1f2937;
+margin: 0;
+}
+h2, h1, a {
+/* color: #717070; */
+color: #fff;
+}
+button {
+padding: 10px 20px;
+font-size: 16px;
+color: #fff;
+background-color: #007bff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+button:hover {
+background-color: #0056b3;
+}
+#quotes-container {
+margin-top: 20px;
+padding: 15px;
+width: 50%;
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#quotes-container p {
+font-size: 1.3rem;
+color: #555;
+text-align: center;
+}
+@media screen and (max-width:786px) {
+#quotes-container p{
+    font-size: 1rem;
+    /* background-color: black; */
+}
+#quotes-container{
+    width: auto;
+}
+h1{
+  font-size: 1.3rem;
+}
+}
+@media screen and (max-width:480px) {
+p{
+    font-size: 0.7rem;
+}
+h2{
+  font-size: 1.2rem;
+}
+}
